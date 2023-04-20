@@ -1,10 +1,13 @@
 package edu.eci.cvds.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 
 @Entity
+@Table(name = "CONFIGURATION")
 public class Configuration {
 
     public Configuration(){}
@@ -18,7 +21,10 @@ public class Configuration {
 	//@GeneratedValue(strategy = GenerationType.AUTO)
 	//private Long configurationId;
     @Id
+    @Column(name = "PROPIEDAD")
     private String property;
+
+    @Column(name = "VALOR")
     private String value;
 
 

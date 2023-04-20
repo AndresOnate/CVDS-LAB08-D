@@ -1,8 +1,8 @@
 edu\eci\cvds\beans\LineChartBean.class
 edu\eci\cvds\model\Configuration.class
+edu\eci\cvds\Main.class
 edu\eci\cvds\servlet\model\Todo.class
 edu\eci\cvds\servlet\Service.class
-edu\eci\cvds\beans\Main.class
 edu\eci\cvds\repository\ConfigurationsRepository.class
 edu\eci\cvds\servlet\Servlet.class
 edu\eci\cvds\beans\BackingBean.class
